@@ -1,2 +1,20 @@
 # Computer-Vision :- Segmentation-and-Classification
-This project addresses the successful application of convolutional neural networks of flower classification and segmentation. For classification, a custom CNN is built and trained from scratch to recognise the 17 different flower categories. For segmentation, a pretrained DeepLab v3+ model with a ResNet-18 backbone is used for distinguishing flowers from background. The classification achieved a high accuracy with validation performance improved though data augmentation, batch normalisation and dropout. The segmentation model is assessed using Mean Intersection Over-Union and Mean Boundary F1 score both of which showed strong performance. These results demonstrate that a custom CNN can also perform well with proper regularisation and transfer learning which is an effective strategy for achieving accurate pixel-wise predictions with limited labelled data
+This project explores computer vision techniques for recognizing and segmenting flowers using deep learning. It combines a custom-built Convolutional Neural Network (CNN) for classification with a pretrained DeepLab v3+ model for segmentation.
+## Key Highlights
+
+- Classification: A CNN trained from scratch to classify flowers into 17 categories.
+
+- Segmentation: A DeepLab v3+ model with ResNet-18 backbone used to separate flowers from the background.
+
+- Techniques: Data augmentation, batch normalization, and dropout improved accuracy and generalization.
+
+- Evaluation Metrics: Accuracy, Mean Intersection over Union (mIoU), and Mean Boundary F1 Score.
+
+## Repository Structure
+
+- classification.py → Custom CNN for flower classification
+
+- segmentation.py → DeepLab v3+ for flower segmentation
+
+- ClassificationandSegmentationreport.pdf → Detailed methodology, experiments, and results
+
